@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Popular Movie</string>
+    <string name="category"><b>(Action, Adventure, Drama)</b></string>
+</resources>
