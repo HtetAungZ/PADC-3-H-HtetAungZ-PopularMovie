@@ -63,7 +63,7 @@
             android:layout_toRightOf="@id/iv_kingaurther"
             android:text="King Arthur: Legend of the Sword (2017)"
             android:textColor="@color/darkcolor"
-            android:textSize="14sp" />
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/tv_category"
