@@ -8,22 +8,15 @@ import android.view.ViewGroup;
 
 import com.padcmyanmar.popularmovie.R;
 import com.padcmyanmar.popularmovie.delegates.MoviesActionDelegate;
+import com.padcmyanmar.popularmovie.viewholders.ItemMoviesDetailsViewHolder;
 import com.padcmyanmar.popularmovie.viewholders.ItemMoviesViewHolder;
 
-import java.util.zip.Inflater;
 
 /**
- * Created by ICE on 07-12-2017.
+ * Created by ICE on 14-12-2017.
  */
 
-public class MoviesAdapter extends RecyclerView.Adapter{
-
-
-    private MoviesActionDelegate mmoviesActionDelegate;
-
-    public MoviesAdapter(MoviesActionDelegate mmoviesActionDelegate) {
-        this.mmoviesActionDelegate = mmoviesActionDelegate;
-    }
+public class MovieDetailsAdapter extends RecyclerView.Adapter{
 
 
 
@@ -33,11 +26,12 @@ public class MoviesAdapter extends RecyclerView.Adapter{
 
         Context context=parent.getContext();
         LayoutInflater inflater=LayoutInflater.from(context);
-        View moviesItemView= inflater.inflate(R.layout.item_movie,parent,false);
-        ItemMoviesViewHolder itemMoviesViewHolder=new ItemMoviesViewHolder(moviesItemView,mmoviesActionDelegate);
+        View moviesItemView=inflater.inflate(R.layout.activity_movie_detail_images,parent,false);
+        ItemMoviesDetailsViewHolder itemMoviesDetailsViewHolder=new ItemMoviesDetailsViewHolder(moviesItemView);
 
 
-        return itemMoviesViewHolder;
+
+        return itemMoviesDetailsViewHolder;
     }
 
     @Override
@@ -47,6 +41,6 @@ public class MoviesAdapter extends RecyclerView.Adapter{
 
     @Override
     public int getItemCount() {
-        return 12;
+        return 6;
     }
 }

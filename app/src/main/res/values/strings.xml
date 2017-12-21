@@ -1,4 +1,33 @@
 <resources>
     <string name="app_name">Popular Movie</string>
     <string name="category"><b>(Action, Adventure, Drama)</b></string>
+    <string name="king_arthur_content"> <b>The Legend Of Excalibur</b> </string>
+    <string name="king_arthur_intro">
+
+        Mordred, an iron-fisted warlock, and his armies lay siege to Camelot, seeking to establish the dominance of magic-wielding mages over humankind. Uther Pendragon, king of the Britons, infiltrates Mordreds lair and beheads him, saving Camelot. Uthers treacherous brother Vortigern, who covets the throne, orchestrates a coup and sacrifices his wife Elsa to moat hags to become a demon knight, who kills Uthers wife and slays him in combat. The only survivor is Uthers son, who drifts away in a boat and ends up in Londinium, where he is found and raised by prostitutes.
+
+        Arthur grows into a skilled fighter and man of the streets. Arthur and his friends confront a group of Vikings who had mistreated one of the prostitutes, forcing him to pay her restitution. Afterwards, the brothel is raided by the Blacklegs, Vortigern's minions, and Arthur learns that the Vikings were under the king's protection. Arthur tries to escape the city but is caught and put on a ship with hundreds of other men; the Blacklegs have been forcing all men of Arthur's age to try to pull a sword that has appeared near the castle from the surrounding stone. Arthur is able to remove the sword but is quickly overwhelmed by its power and passes out. Vortigern meets with him in the dungeon, revealing his true lineage.
+
+
+    </string>
+
+    <string name="release_date"><b>Released: January 2017</b></string>
+
+    <string name="title"><b>King Arthur: Legend of the Sword (2017)</b> </string>
+
+
+    <string name="review">
+
+
+       \n \n This Arthur wears what looks like a brown leather bomber jacket, sports a 2016 movie star haircut, calls everybody “mate,” and makes a big show of not wanting to get involved in politics, much less embrace his destiny. That is, until circumstances require him to round up a crew of hyper-competent misfit outsiders and depose the kind heist-movie style, treating every skirmish and siege as if it were another vault that the “Snatch” guys were hoping to empty. The future Knights of the Round Table are just as contemporary. They’re a multicultural crew: this film’s Sir George is nicknamed Kung Fu George, tutors Arthur in martial arts, and is played by Hong Kong-born actor Tom Wu; Sir Bedivere is a Moor played by Beninese movie star Djimon Hounsou. And the Anglo actors’ characters get a dusting of Dickensian chimney soot to enhance their rough-and-ready bona fides. The future Sir William (Aiden Gillen), master of the longbow, goes by Goosefat Bill Wilson.
+
+\n \n I love all this stuff in theory—it’s not far from what Martin Scorsese did in “The Last Temptation of Christ,” populating ancient Jerusalem with New Yorkers, Midwesterners and Brits who spoke in their native accents and used modern slang, slicing and dicing the action into music video beats, and scoring the whole thing with Peter Gabriel’s chants and synth beats. The Ritchie sense of style suits a revisionist approach. He’s as slick and easygoing as a rock and roller showman can be, and because the totality of the film is so knowingly absurd—in addition to the slow-motion, acrobatic swordfights, there are gigantic CGI snakes, rats, wolves, and Godzilla-sized Indian elephants—the whole thing feels like a lark even when the characters are being beaten, tortured and executed. There are even moments when Hunnam, not an actor exactly known for his scalawag charm, evokes Errol Flynn’s devil-may-care jerk incarnation of Robin Hood. Astrid Bergès-Frisbey’s version of Guinevere, a witch whose eyes go black when she summons dark forces, is a fresh variation on the character, though it would’ve been nice if Ritchie had allowed her to crack a few jokes like the boys.
+
+\n \n No, the real problem is that the movie is unmodulated from start to finish. It never lets up in the exact way that a cocaine addict who wants to tell you his life story before closing time never lets up. Michael Bay has often been accused of turning in feature length motion pictures so over-edited that they feel like trailers for themselves, but I don’t think Bay has ever made a movie as frantically, pointlessly, tediously busy as “King Arthur: Legend of the Sword.” Not content to do that time-tested Guy Ritchie story-about-a-story thing in every other scene of the picture—you know, the bit where a character tells an audience, “And then I sez to him,” and the movie cuts to the same character five days earlier saying, “Put down the money, mate!”—the film does it constantly for two hours, dicing dialogue, performances and story points into microscopic narrative particles that disintegrate in the mind.</string>
+
+
+
+
+
+
 </resources>
