@@ -1,13 +1,13 @@
 package com.padcmyanmar.popularmovie.activities;
 
 import android.content.Intent;
-import android.net.LinkAddress;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
 import com.padcmyanmar.popularmovie.R;
+import com.padcmyanmar.popularmovie.adapters.MovieGenresAdapter;
 import com.padcmyanmar.popularmovie.adapters.MoviesAdapter;
 import com.padcmyanmar.popularmovie.delegates.MoviesActionDelegate;
 
@@ -17,10 +17,12 @@ import butterknife.ButterKnife;
 public class MovieActivity extends AppCompatActivity implements MoviesActionDelegate{
 
     @BindView(R.id.rv_movies)
-    RecyclerView recyclerView;
+    RecyclerView rvmovies;
+
 
 
     private MoviesAdapter moviesAdapter;
+
 
 
     @Override
@@ -35,8 +37,8 @@ public class MovieActivity extends AppCompatActivity implements MoviesActionDele
         LinearLayoutManager linearLayoutManager=new LinearLayoutManager(getApplicationContext(),LinearLayoutManager.VERTICAL,false);
 
 
-        recyclerView.setLayoutManager(linearLayoutManager);
-        recyclerView.setAdapter(moviesAdapter);
+        rvmovies.setLayoutManager(linearLayoutManager);
+        rvmovies.setAdapter(moviesAdapter);
 
     }
 

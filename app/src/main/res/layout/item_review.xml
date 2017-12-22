@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/tv_movie_reviews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_review_title"
+        android:layout_margin="8dp"
+        android:lineSpacingMultiplier="1.2"
+        android:paddingBottom="16dp"
+        android:text="@string/review"
+        android:textColor="@color/white_full"
+        android:overScrollMode="never"
+        android:textSize="16sp" />
 
 </RelativeLayout>
