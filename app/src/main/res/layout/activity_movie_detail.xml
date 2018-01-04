@@ -27,6 +27,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:scaleType="centerCrop"
+                    android:background="@android:color/transparent"
                     android:src="@drawable/king_arthur_background_image" />
 
                 <FrameLayout
@@ -79,13 +80,9 @@
                     android:layout_below="@id/tv_content"
                     android:layout_marginTop="12dp"
                     android:layout_toRightOf="@id/fl_king_arthur_poster"
-                    android:scrollbars="vertical">
+                    android:scrollbars="vertical"
+                    >
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:overScrollMode="always">
 
 
                         <TextView
@@ -95,7 +92,6 @@
                             android:text="@string/king_arthur_intro"
                             android:textColor="@color/white_full" />
 
-                    </LinearLayout>
 
 
                 </ScrollView>

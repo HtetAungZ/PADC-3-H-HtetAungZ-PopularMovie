@@ -7,7 +7,7 @@ package com.padcmyanmar.popularmovie.delegates;
 public interface MoviesActionDelegate {
 
 
-    public void onTapMoviesItem();
+     void onTapMoviesItem();
 
 
 

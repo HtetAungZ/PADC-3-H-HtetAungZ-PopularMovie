@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content" android:layout_height="match_parent">
+    android:layout_width="wrap_content" android:layout_height="match_parent"
+    android:background="@color/background">
 
 
 
@@ -16,6 +17,14 @@
         android:text="Action"
         android:textColor="@color/black_full"
         android:textStyle="bold" />
+
+    <View
+        android:layout_width="3dp"
+        android:layout_height="24dp"
+        android:background="#fff"
+        android:id="@+id/seperator"
+        android:layout_toRightOf="@id/tv_action"
+        android:layout_alignTop="@id/tv_action"/>
 
 
 

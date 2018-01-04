@@ -1,36 +1,46 @@
 package com.padcmyanmar.popularmovie.data.vo;
 
-import java.util.List;
+import com.google.gson.annotations.SerializedName;
 
 /**
  * Created by ICE on 21-12-2017.
  */
 
 public class PopularMoviesVO {
-
-    private int Id;
-    private boolean video;
+    @SerializedName("vote_count")
     private int voteCount;
+    private int id;
+    private boolean video;
+    @SerializedName("vote_average")
     private double voteAverage;
     private String title;
     private double popularity;
+    @SerializedName("poster_path")
     private String posterPath;
+    @SerializedName("original_language")
     private String originalLanguage;
+    @SerializedName("original_title")
     private String originalTitle;
-    private List<Integer> genresIds;
+    @SerializedName("genre_ids")
+    private int[] genreIds;
+    @SerializedName("backdrop_path")
     private String backdropPath;
     private boolean adult;
     private String overview;
+    @SerializedName("release_date")
     private String releaseDate;
-
-
 
     public int getVoteCount() {
         return voteCount;
     }
 
+
+    public int[] getGenreIds() {
+        return genreIds;
+    }
+
     public int getId() {
-        return Id;
+        return id;
     }
 
     public boolean isVideo() {
@@ -41,9 +51,7 @@ public class PopularMoviesVO {
         return voteAverage;
     }
 
-    public String getTitle() {
-        return title;
-    }
+    public String getTitle() { return title; }
 
     public double getPopularity() {
         return popularity;
@@ -61,10 +69,6 @@ public class PopularMoviesVO {
         return originalTitle;
     }
 
-    public List<Integer> getGenresIds() {
-        return genresIds;
-    }
-
     public String getBackdropPath() {
         return backdropPath;
     }
@@ -80,7 +84,6 @@ public class PopularMoviesVO {
     public String getReleaseDate() {
         return releaseDate;
     }
-
 
 
 }
